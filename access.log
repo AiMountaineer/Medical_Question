@@ -1,0 +1,68 @@
+2022-05-06 18:45:01|515.4µs|500|GET|/|127.0.0.1|0 B|0 B||
+2022-05-09 09:43:09|0s|404|GET|/vue/masterQuestions/create|127.0.0.1|0 B|0 B||
+2022-05-09 09:45:18|12.4335ms|200|POST|/vue/masterQuestions/create|127.0.0.1|221 B|0 B|{"master_question_text":"頭が痛いですか？","selection":1,"statement":"adcvd","multiple_choice":"123","single_choice":"123","paragraph":"hoge","jump":0,"ng":1,"department":"小儿科"}|
+2022-05-09 09:46:01|27.9767ms|200|POST|/vue/masterQuestions/create|127.0.0.1|219 B|71 B|{"master_question_text":"頭が痛いですか？","selection":1,"statement":"adcvd","multiple_choice":"123","single_choice":"123","paragraph":"hoge","jump":0,"ng":1,"department":"小儿科"}|
+2022-05-09 09:47:43|3.2278ms|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|0 B||
+2022-05-09 09:48:07|375.2µs|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|0 B||
+2022-05-09 09:48:21|1.5759ms|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|0 B||
+2022-05-09 09:49:54|22.922ms|200|POST|/vue/masterQuestions/delete|127.0.0.1|1.7 KB|77 B|{"query":"\n    query IntrospectionQuery {\n      __schema {\n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "}|
+2022-05-09 09:50:08|750.5µs|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|0 B||
+2022-05-09 09:50:09|1.0264ms|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|0 B||
+2022-05-09 09:50:27|0s|404|POST|/vue/masterQuestions/delete/22|127.0.0.1|0 B|9 B||
+2022-05-09 09:54:42|25.9438ms|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|77 B||
+2022-05-09 09:55:43|21.585ms|200|POST|/vue/masterQuestions/create|127.0.0.1|219 B|71 B|{"master_question_text":"頭が痛いですか？","selection":1,"statement":"adcvd","multiple_choice":"123","single_choice":"123","paragraph":"hoge","jump":0,"ng":1,"department":"小儿科"}|
+2022-05-09 09:57:06|21.3807ms|200|POST|/vue/masterQuestions/create|127.0.0.1|232 B|0 B|{"id":23,"master_question_text":"頭が痛いですか？","selection":1,"statement":"你好","multiple_choice":"123","single_choice":"123","paragraph":"你好","jump":0,"ng":1,"department":"小儿科"}|
+2022-05-09 09:57:15|21.7903ms|200|POST|/vue/masterQuestions/create|127.0.0.1|222 B|71 B|{"master_question_text":"頭が痛いですか？","selection":1,"statement":"你好","multiple_choice":"123","single_choice":"123","paragraph":"你好","jump":0,"ng":1,"department":"小儿科"}|
+2022-05-09 09:58:17|513.8µs|200|POST|/vue/masterQuestions/create|127.0.0.1|159 B|0 B|----------------------------909752236466128334570852
+Content-Disposition: form-data; name="id"
+
+22
+----------------------------909752236466128334570852--
+|
+2022-05-09 10:00:33|19.712ms|200|POST|/vue/masterQuestions/create|127.0.0.1|61 B|0 B|{"id":24,"statement":"你好","paragraph":"你好"}|
+2022-05-09 10:02:46|21.1232ms|200|POST|/vue/masterQuestions/create|127.0.0.1|50 B|71 B|{"statement":"你好","paragraph":"你好"}|
+2022-05-09 10:03:18|12.3237ms|200|POST|/vue/masterQuestions/update|127.0.0.1|50 B|0 B|{"statement":"你好","paragraph":"你好"}|
+2022-05-09 10:04:26|28.9422ms|200|POST|/vue/masterQuestions/update|127.0.0.1|106 B|86 B|{"id":25,"master_question_test":"痛いですか？","statement":"你好","paragraph":"你好"}|
+2022-05-09 10:05:23|24.2617ms|200|POST|/vue/masterQuestions/update|127.0.0.1|106 B|86 B|{"id":25,"master_question_test":"痛いですか？","statement":"你好","paragraph":"你好"}|
+2022-05-17 09:49:05|732.3µs|200|POST|/vue/masterQuestions/create|127.0.0.1|227 B|0 B|{
+"master_question_text":"ご飯を食べましたか？", 
+"selection":1, 
+"statement":"adcvd", 
+"multiple_choice":"123", 
+"single_choice":"123", 
+"paragraph":"hoge", 
+"jump":0, 
+"ng":1, 
+"department":"小儿科", 
+}|
+2022-05-17 09:49:29|419.6µs|200|POST|/vue/masterQuestions/create|127.0.0.1|227 B|0 B|{
+"master_question_text":"ご飯を食べましたか？", 
+"selection":2, 
+"statement":"adcvd", 
+"multiple_choice":"123", 
+"single_choice":"123", 
+"paragraph":"hoge", 
+"jump":0, 
+"ng":1, 
+"department":"小儿科", 
+}|
+2022-05-17 09:55:25|737.9µs|200|POST|/vue/masterQuestions/create|127.0.0.1|171 B|0 B|{
+"master_question_text":"1111111？", 
+"selection":2, 
+"statement":"adcvd", 
+"multiple_choice":"123", 
+"single_choice":"123", 
+"paragraph":"hoge", 
+"jump":0, 
+
+}|
+2022-05-17 10:05:32|36.0199ms|200|POST|/vue/masterQuestions/create|127.0.0.1|169 B|71 B|{"master_question_text":"1111111？","selection":2,"statement":"adcvd","multiple_choice":"123","single_choice":"123","paragraph":"hoge","jump":0}|
+2022-05-17 10:06:38|538.4µs|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|0 B||
+2022-05-17 10:06:56|945.1µs|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|0 B||
+2022-05-17 10:07:04|585.7µs|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|0 B||
+2022-05-17 10:07:23|23.9539ms|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|77 B||
+2022-05-17 10:07:48|196.4796ms|200|POST|/vue/masterQuestions/delete|127.0.0.1|0 B|77 B||
+2022-05-17 12:58:48|25.6423ms|200|POST|/vue/masterQuestions/delete|127.0.0.1|15 B|77 B|{"id":30}|
+2022-05-17 13:04:05|20.9501ms|200|POST|/vue/masterQuestions/delete|127.0.0.1|13 B|77 B|{"id":29}|
+2022-05-17 13:05:33|20.3248ms|200|POST|/vue/masterQuestions/delete|127.0.0.1|13 B|77 B|{"id":28}|
+2022-05-26 14:35:19|0s|404|GET|/v1/measured/getstats/period|127.0.0.1|0 B|9 B||
